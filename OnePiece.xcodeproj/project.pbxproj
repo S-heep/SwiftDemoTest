@@ -3,19 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		AF8E71C6A788AC78A0229C37 /* Pods_OnePiece.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89FC16832CD72FDE65CCE288 /* Pods_OnePiece.framework */; };
 		F1B4E943257E430900D75572 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E942257E430900D75572 /* AppDelegate.swift */; };
 		F1B4E945257E430900D75572 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E944257E430900D75572 /* SceneDelegate.swift */; };
-		F1B4E947257E430900D75572 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E946257E430900D75572 /* ViewController.swift */; };
-		F1B4E94A257E430900D75572 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B4E948257E430900D75572 /* Main.storyboard */; };
 		F1B4E94C257E430A00D75572 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1B4E94B257E430A00D75572 /* Assets.xcassets */; };
-		F1B4E94F257E430A00D75572 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B4E94D257E430A00D75572 /* LaunchScreen.storyboard */; };
 		F1B4E95A257E430A00D75572 /* OnePieceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E959257E430A00D75572 /* OnePieceTests.swift */; };
 		F1B4E965257E430A00D75572 /* OnePieceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E964257E430A00D75572 /* OnePieceUITests.swift */; };
+		F1B4E995257E500300D75572 /* DemoEntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E994257E500300D75572 /* DemoEntranceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +40,7 @@
 		F1B4E93F257E430900D75572 /* OnePiece.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePiece.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B4E942257E430900D75572 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1B4E944257E430900D75572 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1B4E946257E430900D75572 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F1B4E949257E430900D75572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1B4E94B257E430A00D75572 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F1B4E94E257E430A00D75572 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1B4E950257E430A00D75572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1B4E955257E430A00D75572 /* OnePieceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePieceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B4E959257E430A00D75572 /* OnePieceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePieceTests.swift; sourceTree = "<group>"; };
@@ -53,6 +48,7 @@
 		F1B4E960257E430A00D75572 /* OnePieceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePieceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B4E964257E430A00D75572 /* OnePieceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePieceUITests.swift; sourceTree = "<group>"; };
 		F1B4E966257E430A00D75572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1B4E994257E500300D75572 /* DemoEntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoEntranceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,11 +112,9 @@
 			children = (
 				F1B4E942257E430900D75572 /* AppDelegate.swift */,
 				F1B4E944257E430900D75572 /* SceneDelegate.swift */,
-				F1B4E946257E430900D75572 /* ViewController.swift */,
-				F1B4E948257E430900D75572 /* Main.storyboard */,
 				F1B4E94B257E430A00D75572 /* Assets.xcassets */,
-				F1B4E94D257E430A00D75572 /* LaunchScreen.storyboard */,
 				F1B4E950257E430A00D75572 /* Info.plist */,
+				F1B4E994257E500300D75572 /* DemoEntranceViewController.swift */,
 			);
 			path = OnePiece;
 			sourceTree = "<group>";
@@ -149,7 +143,6 @@
 				5A5C8497CDA01BE9204FCEC0 /* Pods-OnePiece.debug.xcconfig */,
 				5E74EB7115546622E3443C66 /* Pods-OnePiece.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,9 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1B4E94F257E430A00D75572 /* LaunchScreen.storyboard in Resources */,
 				F1B4E94C257E430A00D75572 /* Assets.xcassets in Resources */,
-				F1B4E94A257E430900D75572 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1B4E947257E430900D75572 /* ViewController.swift in Sources */,
+				F1B4E995257E500300D75572 /* DemoEntranceViewController.swift in Sources */,
 				F1B4E943257E430900D75572 /* AppDelegate.swift in Sources */,
 				F1B4E945257E430900D75572 /* SceneDelegate.swift in Sources */,
 			);
@@ -363,25 +354,6 @@
 			targetProxy = F1B4E961257E430A00D75572 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F1B4E948257E430900D75572 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1B4E949257E430900D75572 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F1B4E94D257E430A00D75572 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F1B4E94E257E430A00D75572 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F1B4E967257E430A00D75572 /* Debug */ = {
@@ -435,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -490,7 +462,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -516,7 +488,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Onepiece.WN.OnePiece;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -536,7 +508,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Onepiece.WN.OnePiece;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
