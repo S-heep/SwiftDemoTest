@@ -20,7 +20,7 @@ final class DemoEntranceViewController: UIViewController {
     return tableView
   }()
   
-  private let dataSource: [UIViewController] = [UIViewController(), UIViewController(), UIViewController(), UIViewController(), UIViewController(), UIViewController()]
+  private let dataSource: [UIViewController] = [TabelViewDemoViewController(), UIViewController(), UIViewController(), UIViewController(), UIViewController(), UIViewController()]
   
   private let detailInfo: [String] = ["tableView", "collectionView", "network", "audio", "video", "animation"]
   

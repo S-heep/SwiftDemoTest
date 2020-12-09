@@ -14,6 +14,8 @@
 		F1B4E95A257E430A00D75572 /* OnePieceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E959257E430A00D75572 /* OnePieceTests.swift */; };
 		F1B4E965257E430A00D75572 /* OnePieceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E964257E430A00D75572 /* OnePieceUITests.swift */; };
 		F1B4E995257E500300D75572 /* DemoEntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E994257E500300D75572 /* DemoEntranceViewController.swift */; };
+		F1B4EA24257F8B0E00D75572 /* TabelViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4EA23257F8B0E00D75572 /* TabelViewDemoViewController.swift */; };
+		F1B4EA41257F8F7C00D75572 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4EA40257F8F7C00D75572 /* TableViewDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F1B4E964257E430A00D75572 /* OnePieceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePieceUITests.swift; sourceTree = "<group>"; };
 		F1B4E966257E430A00D75572 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1B4E994257E500300D75572 /* DemoEntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoEntranceViewController.swift; sourceTree = "<group>"; };
+		F1B4EA23257F8B0E00D75572 /* TabelViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewDemoViewController.swift; sourceTree = "<group>"; };
+		F1B4EA40257F8F7C00D75572 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +150,11 @@
 		F1B4E9AE257F335C00D75572 /* TableView */ = {
 			isa = PBXGroup;
 			children = (
+				F1B4EA3C257F8B8100D75572 /* Cache */,
+				F1B4EA3B257F8B7200D75572 /* Network */,
+				F1B4EA3A257F8B6800D75572 /* Models */,
+				F1B4EA39257F8B5E00D75572 /* Views */,
+				F1B4EA38257F8B5000D75572 /* Controllers */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -183,6 +192,43 @@
 			children = (
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		F1B4EA38257F8B5000D75572 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4EA23257F8B0E00D75572 /* TabelViewDemoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F1B4EA39257F8B5E00D75572 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1B4EA3A257F8B6800D75572 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4EA40257F8F7C00D75572 /* TableViewDataSource.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1B4EA3B257F8B7200D75572 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F1B4EA3C257F8B8100D75572 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cache;
 			sourceTree = "<group>";
 		};
 		FA7083B91290DDB37CAC9D6F /* Pods */ = {
@@ -367,6 +413,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1B4E995257E500300D75572 /* DemoEntranceViewController.swift in Sources */,
+				F1B4EA41257F8F7C00D75572 /* TableViewDataSource.swift in Sources */,
+				F1B4EA24257F8B0E00D75572 /* TabelViewDemoViewController.swift in Sources */,
 				F1B4E943257E430900D75572 /* AppDelegate.swift in Sources */,
 				F1B4E945257E430900D75572 /* SceneDelegate.swift in Sources */,
 			);
