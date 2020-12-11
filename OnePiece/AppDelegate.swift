@@ -6,12 +6,14 @@
 //
 
 import UIKit
+import CocoaLumberjack.DDDispatchQueueLogFormatter
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
 
+    setupThirdPartyConfiguration()
     return true
   }
 
@@ -29,6 +31,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
   }
 
+}
 
+extension AppDelegate {
+  private func setupThirdPartyConfiguration() {
+    initLogSystem()
+  }
+  
+  private func initLogSystem() {
+    DDLog.add(DDOSLogger.sharedInstance)
+    let fileLogger = DDFileLogger()
+    // 24 hour rolling
+    fileLogger.rollingFrequency = 60 * 60 * 24
+    fileLogger.logFileManager.maximumNumberOfLogFiles = 7;
+    DDLog.add(fileLogger)
+    
+  }
 }
 

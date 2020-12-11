@@ -16,6 +16,7 @@
 		F1B4E995257E500300D75572 /* DemoEntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4E994257E500300D75572 /* DemoEntranceViewController.swift */; };
 		F1B4EA24257F8B0E00D75572 /* TabelViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4EA23257F8B0E00D75572 /* TabelViewDemoViewController.swift */; };
 		F1B4EA41257F8F7C00D75572 /* TableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4EA40257F8F7C00D75572 /* TableViewDataSource.swift */; };
+		F1B4EA4725807A9900D75572 /* PieceLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B4EA4625807A9900D75572 /* PieceLog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F1B4E994257E500300D75572 /* DemoEntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoEntranceViewController.swift; sourceTree = "<group>"; };
 		F1B4EA23257F8B0E00D75572 /* TabelViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelViewDemoViewController.swift; sourceTree = "<group>"; };
 		F1B4EA40257F8F7C00D75572 /* TableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDataSource.swift; sourceTree = "<group>"; };
+		F1B4EA4625807A9900D75572 /* PieceLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieceLog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		F1B4E941257E430900D75572 /* OnePiece */ = {
 			isa = PBXGroup;
 			children = (
+				F1B4EA4525807A6500D75572 /* ThirdPartyRepo */,
 				F1B4E9B3257F33A500D75572 /* Network */,
 				F1B4E9B2257F338D00D75572 /* Animation */,
 				F1B4E9B1257F338500D75572 /* Video */,
@@ -229,6 +232,14 @@
 			children = (
 			);
 			path = Cache;
+			sourceTree = "<group>";
+		};
+		F1B4EA4525807A6500D75572 /* ThirdPartyRepo */ = {
+			isa = PBXGroup;
+			children = (
+				F1B4EA4625807A9900D75572 /* PieceLog.swift */,
+			);
+			path = ThirdPartyRepo;
 			sourceTree = "<group>";
 		};
 		FA7083B91290DDB37CAC9D6F /* Pods */ = {
@@ -415,6 +426,7 @@
 				F1B4E995257E500300D75572 /* DemoEntranceViewController.swift in Sources */,
 				F1B4EA41257F8F7C00D75572 /* TableViewDataSource.swift in Sources */,
 				F1B4EA24257F8B0E00D75572 /* TabelViewDemoViewController.swift in Sources */,
+				F1B4EA4725807A9900D75572 /* PieceLog.swift in Sources */,
 				F1B4E943257E430900D75572 /* AppDelegate.swift in Sources */,
 				F1B4E945257E430900D75572 /* SceneDelegate.swift in Sources */,
 			);

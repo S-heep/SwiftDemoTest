@@ -1,8 +1,8 @@
 PODS:
   - Alamofire (5.4.0)
-  - CocoaLumberjack (3.7.0):
-    - CocoaLumberjack/Core (= 3.7.0)
   - CocoaLumberjack/Core (3.7.0)
+  - CocoaLumberjack/Swift (3.7.0):
+    - CocoaLumberjack/Core
   - IGListDiffKit (4.0.0)
   - IGListKit (4.0.0):
     - IGListDiffKit (= 4.0.0)
@@ -22,7 +22,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
-  - CocoaLumberjack
+  - CocoaLumberjack/Swift
   - IGListKit (~> 4.0.0)
   - lottie-ios
   - PureLayout
@@ -61,6 +61,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   thenPromise: c1a319348c6052652b071d8dd4c6db9984860209
 
-PODFILE CHECKSUM: 8adb126dc6ca461bc71c1a3b053706d614d69bea
+PODFILE CHECKSUM: c5e062e5f6b2274ce771ab7936a535b9f5dc22cd
 
 COCOAPODS: 1.9.3
